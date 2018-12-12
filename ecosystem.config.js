@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: 'Development',
+    name: 'Development2',
     script: './index.js'
   }],
   deploy: {
