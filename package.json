@@ -1,0 +1,25 @@
+{
+  "name": "awsexample",
+  "version": "1.0.0",
+  "description": "hey dude example web app",
+  "main": "index.js",
+  "scripts": {
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbaker2016/awsexample.git"
+  },
+  "author": "Robert Baker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbaker2016/awsexample/issues"
+  },
+  "homepage": "https://github.com/rbaker2016/awsexample#readme",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "pm2": "^3.2.3"
+  }
+}
