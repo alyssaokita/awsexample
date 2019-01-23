@@ -18,7 +18,7 @@ app.use(express.static('public'))
 // }
 
 // const httpsPort = 433
-const httpPort = 80
+const httpPort = 3000
 // const httpsServer = https.createServer(options, app)
 const httpServer = http.createServer(app)
 
