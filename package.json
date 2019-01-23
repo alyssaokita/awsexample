@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rbaker2016/awsexample.git"
+    "url": "git+https://github.com/rbakerdev/awsexample.git"
   },
   "author": "Robert Baker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rbaker2016/awsexample/issues"
+    "url": "https://github.com/rbakerdev/awsexample/issues"
   },
-  "homepage": "https://github.com/rbaker2016/awsexample#readme",
+  "homepage": "https://github.com/rbakerdev/awsexample#readme",
   "devDependencies": {
     "express": "^4.16.4",
     "pm2": "^3.2.3"
