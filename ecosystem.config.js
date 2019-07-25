@@ -5,8 +5,8 @@ module.exports = {
   }],
   deploy: {
     production: {
-      user: 'ubuntu',
-      host: 'ec2-18-224-228-174.us-east-2.compute.amazonaws.com',
+      user: 'ec2-user',
+      host: 'ec2-18-223-203-123.us-east-2.compute.amazonaws.com',
       key: '~/.ssh/development_key.pem',
       ref: 'origin/master',
       repo: 'git@github.com:rbakerdev/awsexample.git',
